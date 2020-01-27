@@ -1,8 +1,9 @@
 import React from 'react'
+import sample_02 from '../img/sample_02.svg'
 
 export default function Work() {
 	return (
-		<div>
+		<section>
 			<div className="work_grid-item">
 				<h2>ライターさんにお願いしたいお仕事</h2>
 				<h3>お願いしたいのはWEBに載せる「コンテンツ記事」や「レポート文」などを書いていただく仕事です。</h3>
@@ -12,8 +13,8 @@ export default function Work() {
 				<p>どの仕事もライターステーション編集部から直接ご依頼させていただき、編集部から報酬をお支払いする「直接発注」です。 他のライター募集サイトのように「仕事を依頼したい企業の案件を集めて、ライターさんに紹介する」といった形態ではありません。 編集部の自社案件としてさまざまな分野のお仕事が常にあり、執筆依頼は次から次へ途切れることなく発注します。 どんどんご依頼させていただきますので、ぜひともどんどん稼いでください。 意欲のあるライターを歓迎します。</p>
 			</div>
 			<div className="work_grid-item">
-				<img src="" alt=""/>
+				<img src={sample_02} alt="computer"/>
 			</div>
-		</div>
+		</section>
 	)
 }
