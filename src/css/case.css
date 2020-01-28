@@ -1,0 +1,26 @@
+.case_list-container > li {
+	display: inline-block;
+	width: calc(100% / 3);
+	padding: 1.5%;
+	text-align: center;
+}
+
+.case_list-image {
+	margin-bottom: 1.5rem;
+}
+
+.case_list-link{
+	color: black;
+	text-decoration: underline;
+}
+
+.case_list-price {
+	color: #428bc9;
+	font-size: 2rem;
+	font-weight:700;
+	margin: 1rem auto; 
+}
+
+.case_list-price > span {
+	font-size: 1rem;
+}

@@ -1,12 +1,55 @@
+@import-normalize;
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import 'header.css';
+@import 'main-carousel.css';
+@import 'text.css';
+@import 'work.css';
+@import 'entry-link.css';
+@import 'case.css';
+@import 'requirements.css';
+@import 'work-flow.css';
+@import 'support.css';
+@import 'feedback.css';
+@import 'qa.css';
 
 
-body {
+*, 
+*::before, 
+*::after {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+:root {
+  font-size: 20px;
+  --primary-bg-color:linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #ccc; */
+}
+
+section {
+  width: 100%;
+  padding: 100px 0 60px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content-container {
+  width: 1040px;
+  max-width: 100%;
+  margin: 0 auto;
 }

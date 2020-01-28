@@ -3,16 +3,16 @@ import sample_08 from '../img/sample_08.png'
 
 export default function QA() {
 	return (
-		<section>
+		<section id="qa">
 			<h2>詳細Q&amp;A</h2>
 			<h3>よくある質問</h3>
 			<p>ご登録をご検討中の方やライターさまよりお問い合わせいただく、ご質問をQ＆Aでお答えいたします。
 					ご不明な点などを解決するのに、お役立てください。
 			</p>
 			<h3>＞＞ 登録前の質問 ＜＜</h3>
-			<div className="carousel-container">
+			<div className="slide-container">
 				<ul>
-					<li>
+					<li className="slide">
 						<dl>
 							<dt>
 								<img src={sample_08} alt="sample_08" width="90" />
@@ -26,7 +26,7 @@ export default function QA() {
 							</dd>
 						</dl>
 					</li>
-					<li>
+					<li className="slide">
 						<dl>
 							<dt>
 								<img src={sample_08} alt="sample_08" width="90" />
@@ -40,7 +40,7 @@ export default function QA() {
 							</dd>
 						</dl>
 					</li>
-					<li>
+					<li className="slide">
 						<dl>
 							<dt>
 								<img src={sample_08} alt="sample_08" width="90" />
@@ -54,7 +54,7 @@ export default function QA() {
 							</dd>
 						</dl>
 					</li>
-					<li>
+					<li className="slide">
 						<dl>
 							<dt>
 								<img src={sample_08} alt="sample_08" width="90" />
@@ -68,7 +68,7 @@ export default function QA() {
 							</dd>
 						</dl>
 					</li>
-					<li>
+					<li className="slide">
 						<dl>
 							<dt>
 								<img src={sample_08} alt="sample_08" width="90" />
@@ -83,6 +83,8 @@ export default function QA() {
 						</dl>
 					</li>
 				</ul>
+				<a>&#10094;</a>
+				<a>&#10095;</a>
 			</div>
 			<h3>＞＞ お仕事に関する質問 ＜＜</h3>
 			<div className="content-container">

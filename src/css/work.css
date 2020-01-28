@@ -1,0 +1,6 @@
+.work_grid-container {
+	display: grid;
+	grid-template-columns: repeat(2, 48.5%);
+	align-items: flex-end;
+	grid-gap: 3%;
+}

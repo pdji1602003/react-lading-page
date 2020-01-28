@@ -1,0 +1,14 @@
+#requirements {
+	background:var(--primary-bg-color); 
+}
+
+.requirements_list-container > li{
+	display: inline-block;
+	width: calc(100% / 3);
+	padding: 1.5%;
+	text-align: center;
+}
+
+#requirements .text-left {
+	line-height: 1.6;
+}

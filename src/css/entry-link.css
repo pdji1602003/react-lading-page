@@ -1,0 +1,68 @@
+#entryLink {
+	padding: 50px 0;
+	background-color: #fafafa;
+}
+
+.entryLink_flex-container {
+	display: flex;
+	justify-content: center;
+}
+
+.entryLink_link {
+	display: inline-block;
+	flex: 1;
+	padding: 15px;
+	margin-right: 1rem;
+	font-size: 0.9rem;
+	font-weight: 500;
+	line-height: 28px;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+	transition: all .2s ease-in-out;
+}
+
+.entryLink_link:last-child{
+	margin-right: 0;
+}
+
+.entryLink_green-link {
+	background-color: #64CEAA;
+	border: 2px solid #64CEAA;
+}
+
+.entryLink_blue-link {
+	background-color: #0364ca;
+	border: 2px solid #0364ca;
+}
+
+.entryLink_arrow {
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+	border: 2px solid white;
+	border-radius: 50%;
+	font-size: .5rem;
+	vertical-align: middle;
+	margin-right: 5px;
+	padding-left: 1px;
+	line-height: 0.8rem;
+}
+
+.entryLink_green-link:hover {
+	color: #64CEAA;
+	background-color: white;
+}
+
+.entryLink_green-link:hover > .entryLink_arrow {
+	border: 2px solid #64CEAA;
+}
+
+.entryLink_blue-link:hover {
+	color: #0364ca;
+	background-color: white;
+}
+
+.entryLink_blue-link:hover > .entryLink_arrow {
+	border: 2px solid #0364ca;
+}

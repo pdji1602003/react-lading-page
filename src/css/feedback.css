@@ -1,0 +1,14 @@
+#feedback {
+	background:var(--primary-bg-color); 
+}
+
+.feedback_list-container > li{
+	display: inline-block;
+	width: calc(100% / 4);
+	padding: 1.5%;
+	text-align: center;
+}
+
+#feedback h3 {
+	line-height: 1.6;
+}

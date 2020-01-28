@@ -1,0 +1,87 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+
+.header_content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 1040px;
+	max-width: 100%;
+	margin: 10px auto;
+}
+
+.header_logo-container {
+	display: inline-block;
+	flex: 0 0 350px;
+}
+
+.header_logo-container>img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.header_company-name-container {
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+}
+
+.header_company-name-en {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0.07em;
+}
+
+.header_company-name-jp {
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 21px;
+}
+
+.header_links-container {
+	text-align: right;
+	flex-grow: 1;
+}
+
+.header_outwards-links-container {
+	margin-bottom: 5px;
+}
+
+.header_outwards-links-container>li {
+	display: inline-block;
+	margin-right: 2.5%;
+	font-size: 13px;
+}
+
+.header_outwards-links-container>li:last-child {
+	margin-right: 0;
+}
+
+.header_outwards-links-container>li>a:hover {
+	text-decoration: underline;
+}
+
+.header_inwards-links-container>li {
+	display: inline-block;
+	margin-right: 2.5%;
+	font-size: 14px;
+}
+
+.header_inwards-links-container>li:last-child {
+	margin-right: 0;
+}
+
+.header_inwards-links-container>li>a:hover {
+	text-decoration: underline;
+}
+
+
+

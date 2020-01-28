@@ -12,7 +12,7 @@ import QA from './QA'
 
 export default function Main() {
 	return (
-		<div>
+		<main>
 			<MainCarousel />
 			<Intro />
 			<Work />
@@ -26,6 +26,6 @@ export default function Main() {
 			<FeedBack />
 			<QA />
 			<EntryLink />
-		</div>
+		</main>
 	)
 }

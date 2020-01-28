@@ -1,0 +1,29 @@
+.workFlow_list-container > li {
+	display: inline-block;
+	width: calc(96% / 3);
+	padding: 4% 2%;
+	color: white;
+	text-align: center;
+	border-radius: 4px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+	margin-right: 2%;
+}
+
+.workFlow_list-container > li:first-child {
+	background-color: #6c9bd2;
+}
+
+.workFlow_list-container > li:nth-child(2) {
+	background-color: #ff6347;
+}
+
+.workFlow_list-container > li:last-child {
+	background-color: #66cdaa;
+	margin-right: 0;
+}
+
+#workFlow .text-left {
+	line-height: 1.6;
+	font-weight: 400;
+}
+

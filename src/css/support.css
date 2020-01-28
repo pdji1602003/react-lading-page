@@ -1,0 +1,16 @@
+.support_img-container  > img{
+	display: inline-block;
+	max-width: 100%;
+	width: 100%;
+}
+
+.support_list-container > li {
+	display: inline-block;
+	width: calc(100% / 2);
+	padding: 1.5%;
+	text-align: center;
+}
+
+#support .text-left {
+	line-height: 1.6;
+}
