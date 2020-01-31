@@ -32,7 +32,7 @@ body {
   color: black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #ccc; */
+  overflow-x: hidden;
 }
 
 section {
