@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import sample_08 from '../img/sample_08.png'
 import uuidv4 from 'uuid/v4'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Slide from './Slide'
+import useWindowDimensions from '../customHooks/useWindowDimensions'
 
 const sliderOneResponsive = {
 	desktop: {
@@ -24,8 +25,13 @@ const sliderOneResponsive = {
 }
 
 const sliderTwoResponsive = {
+	desktop: {
+		breakpoint: { max: 3000, min: 1024 },
+		items: 3,
+		slidesToSlide: 1
+	},
 	tablet: {
-		breakpoint: { max: 1024, min: 464 },
+		breakpoint: { max: 1023, min: 464 },
 		items: 2,
 		slidesToSlide: 1
 	},
@@ -39,8 +45,8 @@ const sliderTwoResponsive = {
 export default function QA() {
 	const [slides] = useState(sampleSlides)
 	const [slides2] = useState(sampleSlides2)
+	const { innerWidth } = useWindowDimensions()
 	
-
 
 	return (
 		<section id="qa">
@@ -64,11 +70,10 @@ export default function QA() {
 			<h3>＞＞ お仕事に関する質問 ＜＜</h3>
 			<div className="content-container">
 				<Carousel
-					responsive={sliderTwoResponsive}
+					responsive={ sliderTwoResponsive }
 					infinite={false}
-					draggable
 					className="qa_carousel"
-					centerMode
+					centerMode={false}
 				>
 					{slides2.map(slide => <Slide key={slide.id} {...slide} />)}
 				</Carousel>

@@ -8,11 +8,12 @@ import '../css/carousel.css';
 
 
 function App() {
+
   return (
     <Router>
-      <Header/>
-      <Main/>
-      <Footer/>
+      <Header />
+      <Main />
+      <Footer />
     </Router>
   );
 }
