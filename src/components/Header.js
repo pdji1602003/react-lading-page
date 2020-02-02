@@ -1,12 +1,17 @@
 import React from 'react'
 import logo_white from '../img/logo_white.svg'
+import logo_blue from '../img/logo_blue.svg'
+import { useWindowScroll } from '../customHooks/useWindowDimensions'
 
 export default function Header() {
+	const windowScroll = useWindowScroll()
+
+
 	return (
-		<header className="header">
+		<header className={windowScroll > 20 ? 'header header-scroll' : 'header'}>
 			<div className="header_content">
 				<a className="header_logo-container" href="#!">
-					<img src={logo_white} alt="white logo" width="45" height="45" />
+					<img src={windowScroll > 20 ? logo_blue : logo_white} alt="white logo" width="45" height="45" />
 					<div className="header_company-name-container">
 						<p className="header_company-name-en">writer station</p>
 						<p className="header_company-name-jp">ライターステーション</p>

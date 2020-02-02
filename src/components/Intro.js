@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Intro() {
 	return (
-		<section>
+		<section className="isAnimated slow">
 			<h2>ライター募集中！ライターステーションとは</h2>
 			<div>
 				<h3>「書く仕事」で稼ぎたい人にどんどんお仕事をお願いするライター募集サイトです。</h3>

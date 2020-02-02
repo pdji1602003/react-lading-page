@@ -4,7 +4,7 @@ import uuidv4 from 'uuid/v4'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Slide from './Slide'
-import useWindowDimensions from '../customHooks/useWindowDimensions'
+
 
 const sliderOneResponsive = {
 	desktop: {
@@ -45,7 +45,7 @@ const sliderTwoResponsive = {
 export default function QA() {
 	const [slides] = useState(sampleSlides)
 	const [slides2] = useState(sampleSlides2)
-	const { innerWidth } = useWindowDimensions()
+	
 	
 
 	return (
@@ -72,7 +72,7 @@ export default function QA() {
 				<Carousel
 					responsive={ sliderTwoResponsive }
 					infinite={false}
-					className="qa_carousel"
+					className="qa_carousel qa_carousel-second"
 					centerMode={false}
 				>
 					{slides2.map(slide => <Slide key={slide.id} {...slide} />)}

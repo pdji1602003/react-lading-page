@@ -4,6 +4,7 @@
 	left: 0;
 	right: 0;
 	z-index: 99;
+	transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .header_content {
@@ -51,6 +52,10 @@
 	flex-grow: 1;
 }
 
+.header_links-container a {
+	color: #333;
+}
+
 .header_outwards-links-container {
 	margin-bottom: 5px;
 }
@@ -83,5 +88,14 @@
 	text-decoration: underline;
 }
 
+/* on scroll */
+.header.header-scroll {
+	background-color: white;
+	box-shadow: 0 1px 6px 0px rgba(0,0,0,0.3);
+}
+
+.header.header-scroll .header_company-name-container {
+	color:#0364ca;
+}
 
 

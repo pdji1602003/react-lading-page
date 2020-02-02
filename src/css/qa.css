@@ -24,3 +24,12 @@
 .qa_carousel .text-md {
 	white-space: pre-wrap;
 }
+
+.qa_carousel.qa_carousel-second {
+	padding: 2rem 0;
+	overflow: visible;
+}
+
+.qa_carousel.qa_carousel-second .react-multi-carousel-item:last-child .qa_carousel-item-container {
+	margin-right: 0;
+}

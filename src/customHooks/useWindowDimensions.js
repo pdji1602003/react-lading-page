@@ -5,6 +5,11 @@ function getWindowDimensions() {
 	return { innerWidth, innerHeight }
 }
 
+function getWindowScroll() {
+	const scrollValue = document.body.scrollTop || document.documentElement.scrollTop
+	return scrollValue
+}
+
 export default function useWindowDimensions() {
 	const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions())
 
@@ -22,3 +27,18 @@ export default function useWindowDimensions() {
 	return windowDimensions
 }
 
+export function useWindowScroll() {
+	const [windowScroll, setWindowScroll] = useState(getWindowScroll())
+
+	useEffect(() => {
+		function handleWindowScroll() {
+			setWindowScroll(getWindowScroll())
+		}
+		window.addEventListener('scroll', handleWindowScroll)
+		return () => {
+			window.removeEventListener('scroll', handleWindowScroll)
+		};
+	}, [])
+
+	return windowScroll
+}
