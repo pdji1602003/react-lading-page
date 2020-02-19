@@ -8,7 +8,7 @@ Also please note that I swapped out the image used on WRITER STATION's  webpage 
 
 ## Image Credits:
 Photo by [Avel Chuklanov](https://unsplash.com/@chuklanov) on Unsplash  
-Photo by [Ronaldo Arthur](https://unsplash.com/@ronaldoav) Vidal on Unsplash  
+Photo by [Ronaldo Arthur Vidal](https://unsplash.com/@ronaldoav) on Unsplash  
 Photo by [Collins Lesulie](https://unsplash.com/@clesulie) on Unsplash  
 Photo by [LARQ](https://unsplash.com/@livelarq) on Unsplash  
 Photo by [Ben Kolde](https://unsplash.com/@benkolde) on Unsplash  
