@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import sample_08 from '../img/sample_08.png'
+import sample_08 from '../img/sample_08.jpg'
 import uuidv4 from 'uuid/v4'
 import Slide from './Slide'
 

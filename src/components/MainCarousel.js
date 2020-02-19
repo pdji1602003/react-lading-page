@@ -1,6 +1,6 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
-import slide from '../img/sample_01.svg'
+import slide from '../img/sample_01.jpg'
 
 
 export default function MainCarousel() {
@@ -19,6 +19,7 @@ export default function MainCarousel() {
 					<img
 						src={slide}
 						alt="First slide"
+						width="100%"
 					/>
 				</Carousel.Item>
 
@@ -30,6 +31,7 @@ export default function MainCarousel() {
 					<img
 						src={slide}
 						alt="second slide"
+						width="100%"
 					/>
 
 				</Carousel.Item>
@@ -41,6 +43,7 @@ export default function MainCarousel() {
 					<img
 						src={slide}
 						alt="third slide"
+						width="100%"
 					/>
 				</Carousel.Item>
 			</Carousel>

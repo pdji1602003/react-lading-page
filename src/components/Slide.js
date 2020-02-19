@@ -11,7 +11,7 @@ export default function Slide(props) {
 					<img
 						src={sample_08}
 						alt="sample_08"
-						width="90"
+						width="100"
 						src={img}
 					/>
 				</dt>

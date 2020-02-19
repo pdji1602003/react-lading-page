@@ -7,11 +7,11 @@ export default function EntryLink() {
 			<div className="content-container entryLink_flex-container">
 				<Link to="" className="entryLink_link entryLink_green-link">
 					<span className="entryLink_arrow">▶</span>
-					再チャレンジライターさんはこちら
+					校チロヱ仕出で続本ゅも産
 				</Link>
 				<Link to=""  className="entryLink_link entryLink_blue-link">
 					<span className="entryLink_arrow">▶</span>
-					ライターステーションに登録する
+					校チロヱ仕出で続本ゅも産
 				</Link>
 			</div>
 		</section>

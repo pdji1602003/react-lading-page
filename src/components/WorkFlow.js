@@ -1,12 +1,12 @@
 import React from 'react'
-import sample_05 from '../img/sample_05.png'
+import sample_05 from '../img/sample_03.png'
 
 export default function WorkFlow() {
 	return (
 		<section id="workFlow">
 			<div className="content-container">
-				<h2>仕事の流れ</h2>
-				<h3>お仕事の流れ！ ～登録から受注、報酬受取まで～</h3>
+				<h2>参えむ財法ゃお碁儀</h2>
+				<h3>参えむ財法ゃお碁儀！ ～参えむ財法ゃお碁儀子マノハ政米～</h3>
 				<ul className="workFlow_list-container">
 					<li>
 						<dl>
@@ -14,8 +14,19 @@ export default function WorkFlow() {
 								<img src={sample_05} alt="sample_05" width="120" height="120" />
 							</dt>
 							<dd>
-								<h5>「ライターステーション」にご登録</h5>
-								<p className="text-left">ご氏名・ご住所・電話番号（携帯電話でも可）・メールアドレス・今までのライティング、WEB制作経験（あれば）など必要事項を記載してご応募。またこのときに、簡単な課題作文もご提出（フォームに入力）していただきます。</p>
+								<h5>参えむ財法ゃお碁儀ごぞレあ境子マノハ政米</h5>
+								<p className="text-left">校チロヱ仕出で続本ゅも産聞走45転あぶ気25情6切マソツ可延トカ陸全イアカト分市ツ利実お浸安る前並シヤ読職ん副求ぱ今康フとば知漢了辞けリゃひ。校チロヱ仕出で続本ゅも産聞走45転あぶ気25情6切マソツ可延トカ陸全イアカト分市ツ。</p>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>
+								<img src={sample_05} alt="sample_05" width="120" height="120" />
+							</dt>
+							<dd>
+								<h5>参えむ財法ゃお碁儀ごぞレあ境子マノハ政米</h5>
+								<p className="text-left">校チロヱ仕出で続本ゅも産聞走45転あぶ気25情6切マソツ可延トカ陸全イアカト分市ツ利実お浸安る前並シヤ読職ん副求ぱ今康フとば知漢了辞けリゃひ。校チロヱ仕出で続本ゅも産聞走45転あぶ気25情6切マソツ可延トカ陸全イアカト分市ツ。</p>
 							</dd>
 						</dl>
 					</li>
@@ -26,18 +37,7 @@ export default function WorkFlow() {
 							</dt>
 							<dd>
 								<h5>「ライターステーション」にご登録</h5>
-								<p className="text-left">ご氏名・ご住所・電話番号（携帯電話でも可）・メールアドレス・今までのライティング、WEB制作経験（あれば）など必要事項を記載してご応募。またこのときに、簡単な課題作文もご提出（フォームに入力）していただきます。</p>
-							</dd>
-						</dl>
-					</li>
-					<li>
-						<dl>
-							<dt>
-								<img src={sample_05} alt="sample_05" width="120" height="120" />
-							</dt>
-							<dd>
-								<h5>「ライターステーション」にご登録</h5>
-								<p className="text-left">ご氏名・ご住所・電話番号（携帯電話でも可）・メールアドレス・今までのライティング、WEB制作経験（あれば）など必要事項を記載してご応募。またこのときに、簡単な課題作文もご提出（フォームに入力）していただきます。</p>
+								<p className="text-left">校チロヱ仕出で続本ゅも産聞走45転あぶ気25情6切マソツ可延トカ陸全イアカト分市ツ利実お浸安る前並シヤ読職ん副求ぱ今康フとば知漢了辞けリゃひ。校チロヱ仕出で続本ゅも産聞走45転あぶ気25情6切マソツ可延トカ陸全イアカト分市ツ。</p>
 							</dd>
 						</dl>
 					</li>

@@ -16,9 +16,9 @@ export default function Case() {
 							<dd>
 								<h4>コスメニスト</h4>
 								<a className="text-md case_list-link" href="https://cosmenist.com/">https://cosmenist.com/</a>
-								<p className="text-md">コスメファンの本音が「見える」化粧品メディアです。</p>
+								<p className="text-md">明ル企断あル報記とりめレ火落に型期ほいそ臣世。</p>
 								<p className="case_list-price">30,000 <span>円</span></p>
-								<p className="text-md text-left">記事コンテンツのライティング…1ページ1,000円（800文字程度）×30ページ</p>
+								<p className="text-md text-left">明ル企断あル報記とりめレ火落に型期ほいそ臣世1,000円（800文字程度）×30ページ</p>
 							</dd>
 						</dl>
 					</li>
@@ -30,9 +30,9 @@ export default function Case() {
 							<dd>
 								<h4>コスメニスト</h4>
 								<a className="text-md case_list-link" href="https://cosmenist.com/">https://cosmenist.com/</a>
-								<p className="text-md">コスメファンの本音が「見える」化粧品メディアです。</p>
+								<p className="text-md">明ル企断あル報記とりめレ火落に型期ほいそ臣世</p>
 								<p className="case_list-price">30,000 <span>円</span></p>
-								<p className="text-md text-left">記事コンテンツのライティング…1ページ1,000円（800文字程度）×30ページ</p>
+								<p className="text-md text-left">明ル企断あル報記とりめレ火落に型期ほいそ臣世1,000円（800文字程度）×30ページ</p>
 							</dd>
 						</dl>
 					</li>
@@ -44,9 +44,9 @@ export default function Case() {
 							<dd>
 								<h4>コスメニスト</h4>
 								<a className="text-md case_list-link" href="https://cosmenist.com/">https://cosmenist.com/</a>
-								<p className="text-md">コスメファンの本音が「見える」化粧品メディアです。</p>
+								<p className="text-md">明ル企断あル報記とりめレ火落に型期ほいそ臣世</p>
 								<p className="case_list-price">30,000 <span>円</span></p>
-								<p className="text-md text-left">記事コンテンツのライティング…1ページ1,000円（800文字程度）×30ページ</p>
+								<p className="text-md text-left">明ル企断あル報記とりめレ火落に型期ほいそ臣世1,000円（800文字程度）×30ページ</p>
 							</dd>
 						</dl>
 					</li>
@@ -60,9 +60,9 @@ export default function Case() {
 							<dd>
 								<h4>コスメニスト</h4>
 								<a className="text-md case_list-link" href="https://cosmenist.com/">https://cosmenist.com/</a>
-								<p className="text-md">コスメファンの本音が「見える」化粧品メディアです。</p>
+								<p className="text-md">明ル企断あル報記とりめレ火落に型期ほいそ臣世</p>
 								<p className="case_list-price">30,000 <span>円</span></p>
-								<p className="text-md text-left">記事コンテンツのライティング…1ページ1,000円（800文字程度）×30ページ</p>
+								<p className="text-md text-left">明ル企断あル報記とりめレ火落に型期ほいそ臣世1,000円（800文字程度）×30ページ</p>
 							</dd>
 						</dl>
 					</li>
@@ -74,9 +74,9 @@ export default function Case() {
 							<dd>
 								<h4>コスメニスト</h4>
 								<a className="text-md case_list-link" href="https://cosmenist.com/">https://cosmenist.com/</a>
-								<p className="text-md">コスメファンの本音が「見える」化粧品メディアです。</p>
+								<p className="text-md">明ル企断あル報記とりめレ火落に型期ほいそ臣世</p>
 								<p className="case_list-price">30,000 <span>円</span></p>
-								<p className="text-md text-left">記事コンテンツのライティング…1ページ1,000円（800文字程度）×30ページ</p>
+								<p className="text-md text-left">明ル企断あル報記とりめレ火落に型期ほいそ臣世1,000円（800文字程度）×30ページ</p>
 							</dd>
 						</dl>
 					</li>
@@ -88,9 +88,9 @@ export default function Case() {
 							<dd>
 								<h4>コスメニスト</h4>
 								<a className="text-md case_list-link" href="https://cosmenist.com/">https://cosmenist.com/</a>
-								<p className="text-md">コスメファンの本音が「見える」化粧品メディアです。</p>
+								<p className="text-md">明ル企断あル報記とりめレ火落に型期ほいそ臣世</p>
 								<p className="case_list-price">30,000 <span>円</span></p>
-								<p className="text-md text-left">記事コンテンツのライティング…1ページ1,000円（800文字程度）×30ページ</p>
+								<p className="text-md text-left">明ル企断あル報記とりめレ火落に型期ほいそ臣世1,000円（800文字程度）×30ページ</p>
 							</dd>
 						</dl>
 					</li>
