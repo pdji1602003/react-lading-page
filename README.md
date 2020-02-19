@@ -5,7 +5,8 @@ The design of this webpage is entirely based on [WRITER STATION](https://writer-
 I coded everything up from scratch and I did this only to practice my coding skills.  
 This project is for personal practice purpose only.  
 **All design credits belong to [WRITER STATION](https://writer-station.com/).**  
-Also please note that I swapped out the image used on WRITER STATION's  webpage with those from Unsplash. Should there be any issues, please feel free to contact me.  
+Also please note that I swapped out the images used on WRITER STATION's  webpage with those from Unsplash.  
+Should there be any issues, please feel free to contact me.  
 
 ## Image Credits:
 Photo by [Avel Chuklanov](https://unsplash.com/@chuklanov) on Unsplash  
